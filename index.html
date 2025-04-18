@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Noor Collections</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="../assets/logo.jpeg" width="200" height="220" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="50" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="Deliver">Deliver To Pakistan!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">MEN COLLECTION</h3>
+            <h3 class="menuItem">WOMEN COLLECTION</h3>
+            <h3 class="menuItem">JEWELARY AND COSMETICS</h3>
+            <h3 class="menuItem">HOME LIVING PRODUCTS</h3>
+            <h3 class="menuItem">ELECTRONICS</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="../assets/mens-slider.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">MEN COLLECTION</br> NEW</br> FASHION</h1>
+                <h2 class="sliderPrice">2500RS</h2>
+                <a href="#product">
+                    <button class="buyButton"> BUY NOW! </button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="../assets/women-collection.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">WOMEN COLLECTION</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">3000RS</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="../assets/jewelary.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">JEWELARY </br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">900RS</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW! </button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="../assets/living.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HOME LIVING PRODUCTS</br> NEW</br> DESIGNS</h1>
+                <h2 class="sliderPrice">2000RS</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="../assets/electronics.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ELECTRONICS</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">1500RS</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="../assets/free-delivery.jpeg" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders in Pakistan.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="../assets/returns.jpeg" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="../assets/coupon.jpeg" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="../assets/contact-us.jpeg" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="../assets/mens.jpeg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">MEN COLLECTION</h1>
+            <h2 class="productPrice">2000RS</h2>
+            <p class="productDesc">Discover sophistication redefined with Noor's men's fashion, tailored for the modern gentleman who values both tradition and innovation.</p>
+            <div class="colors">
+                <div class="color" style="background-color: darkblue;"></div>
+                <div class="color" style="background-color: black;"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">35</div>
+                <div class="size">40</div>
+                <div class="size">43</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <form class="paymentForm">
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Enter your name" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter your Number" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Enter your Address" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="../assets/credit-card.jpeg" width="40" alt="" class="cardIcon">
+                <img src="../assets/cared-payment.jpeg" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="dd" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </form>
+    </div>
+
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Khussa</h1>
+            <img src="../assets/khussa.jpeg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">New Trending Heels</h1>
+            <img src="../assets/heels.jpeg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Gifts</h1>
+            <img src="../assets/gifts.jpeg" alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="../assets/pinkdress.jpeg" alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NEW FASHION ARRIVALS</h3>
+            <h1 class="nsTitle">New Designs</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="../assets/black.jpeg" alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">MEN COLLECTION</li>
+                    <li class="fListItem">WOMEN COLLECTION</li>
+                    <li class="fListItem">JEWELARY AND COSMETICS</li>
+                    <li class="fListItem">HOMELIVING PRODUCTS/li>
+                    <li class="fListItem">ELECTRONICS</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="../assets/fb.jpeg" alt="" class="fIcon">
+                    <img src="../assets/x.jpeg" alt="" class="fIcon">
+                    <img src="../assets/insta.jpeg" alt="" class="fIcon">
+                    <img src="../assets/whatsapp.jpeg" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Noor Collections. All rights reserved. 2024.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
